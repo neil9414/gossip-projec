@@ -1,12 +1,9 @@
 <h1> The Gossip Project </h1>
 
-<h2> THP 28/10/2019 </h2>
 
 1. Installation : 
 
-> git clone https://github.com/140ch204/20_the_gossip_project.git
->
-> cd 20_the_gossip_project
+
 >
 > bundle install
 > 
@@ -23,7 +20,6 @@ Dans le navigateur aller à l'URL suivante :
 
 http://localhost:3000/
 
-Enjoy !
 
 2. Connaître les versions utilisées : 
 
