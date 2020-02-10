@@ -1,0 +1,20 @@
+<h1 class="my-4" style="text-align: center"><%= @author.first_name.capitalize %> <%= @author.last_name.capitalize %></h1>
+
+<br>
+<h2>Description</h2> 
+<%= @author.description %><br>
+<br>
+
+<h2>Email</h2>
+<a href="mailto:#{<%= @author.email %>}"> <%= @author.email %> </a><br>
+<br>
+
+<h2>Age</h2>
+<%= @author.age %><br>
+<br>
+
+<h2>Ville</h2>
+<%= @city.name %><br>
+<br>
+<a class="btn btn-primary" <%= link_to "Découvrir la ville", city_path(@author.city.id) %></a>
+
